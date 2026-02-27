@@ -3,14 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Darpen Bhandari | Portfolio</title>
+  <title>Projects | Darpen Bhandari</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="assets/style.css" />
 </head>
 
 <body class="bg-zinc-950 text-zinc-100">
   <div class="mx-auto max-w-5xl px-6 py-10">
-
     <nav class="flex items-center justify-between">
       <a href="./index.html" class="font-semibold tracking-tight hover:opacity-80 transition relative z-10">
         Darpen Bhandari
@@ -19,7 +18,7 @@
       <div class="flex items-center gap-4 text-sm">
         <a class="hover:underline" href="./index.html" data-i18n="nav_home">Home</a>
         <a class="hover:underline" href="./projects.html" data-i18n="nav_projects">Projects</a>
-        <a class="hover:underline" href="#contact" data-i18n="nav_contact">Contact</a>
+        <a class="hover:underline" href="./index.html#contact" data-i18n="nav_contact">Contact</a>
 
         <div class="flex items-center gap-2 pl-2">
           <button id="lang-de" class="hover:underline">DE</button>
@@ -29,123 +28,66 @@
       </div>
     </nav>
 
-    <header class="mt-12 grid gap-10 md:grid-cols-2">
-      <div>
-        <h1 class="text-4xl font-semibold tracking-tight" data-i18n="hero_title">Data Analyst</h1>
+    <h1 class="mt-10 text-3xl font-semibold" data-i18n="projects_title">Projects</h1>
+    <p class="mt-2 text-zinc-300" data-i18n="projects_subtitle">Selected work with clear problem, solution and proof.</p>
 
-        <p class="mt-3 text-zinc-300" data-i18n="hero_stack">
-          Python, SQL, Power BI, REST APIs, Data Pipelines, Forecasting
+    <div class="mt-8 grid gap-4 md:grid-cols-2">
+
+      <div class="card">
+        <div class="text-lg font-semibold" data-i18n="stroke_title">Stroke Risk Analysis Dashboard (Power BI)</div>
+
+        <p class="mt-3 text-zinc-300" data-i18n="stroke_desc">
+          Interactive Power BI dashboard analyzing stroke risk factors across 5,110 patients.
         </p>
 
-        <p class="mt-6 text-zinc-200 leading-relaxed" data-i18n="hero_about">
-          I am a Data Analyst with 4+ years of experience turning complex data into dashboards, automation and predictive insights. I currently work in Data and System Analytics at University Hospital Heidelberg, building integrations and reporting workflows across enterprise systems.
-        </p>
-
-        <div class="mt-8 flex flex-wrap gap-3">
-          <a class="btn" href="./projects.html" data-i18n="btn_view_projects">View Projects</a>
-          <a class="btn-outline" href="https://github.com/Darpen24" target="_blank" rel="noreferrer">GitHub</a>
-          <a class="btn-outline" href="https://www.linkedin.com/in/darpen-bhandari" target="_blank" rel="noreferrer">LinkedIn</a>
+        <div class="mt-4 flex flex-wrap gap-3 text-sm">
+          <a class="underline" href="https://github.com/Darpen24/Stroke-Risk" target="_blank" rel="noreferrer" data-i18n="stroke_github">GitHub</a>
+          <a class="underline" href="https://raw.githubusercontent.com/Darpen24/Stroke-Risk/main/Stroek_Risk_Analysis.pbix" download data-i18n="stroke_download">Download PBIX</a>
+          <span class="text-zinc-500" data-i18n="stroke_note">Interactive embed needs Power BI Service access</span>
         </div>
 
-        <div class="mt-10 grid grid-cols-2 gap-3 text-sm">
-          <div class="card">
-            <div class="text-zinc-400" data-i18n="current_label">Current</div>
-            <div class="mt-1 font-medium" data-i18n="current_company">University Hospital Heidelberg</div>
-            <div class="text-zinc-300" data-i18n="current_role">Data and System Analytics</div>
-          </div>
-
-          <div class="card">
-            <div class="text-zinc-400" data-i18n="past_label">Past</div>
-            <div class="mt-1 font-medium" data-i18n="past_company">Hexaware Technologies</div>
-            <div class="text-zinc-300" data-i18n="past_role">Senior Software Engineer and Team Lead</div>
-          </div>
+        <div class="mt-3 text-xs text-zinc-500" data-i18n="stroke_kpis">
+          KPIs: Stroke Rate %, High Risk %, Avg BMI, Avg Glucose. Visuals: risk breakdown by age group, BMI category, smoking status and BMI vs glucose scatter.
         </div>
       </div>
 
-      <div class="card p-6">
-        <div class="flex items-center gap-4">
-          <img
-            src="assets/Darpen-Photo.jpeg"
-            alt="Darpen Bhandari"
-            class="h-20 w-20 rounded-2xl object-cover border border-white/10"
-          />
-          <div>
-            <div class="text-lg font-semibold" data-i18n="core_skills_title">Core Skills</div>
-            <div class="text-sm text-zinc-300" data-i18n="core_skills_location">Based in Mannheim, Germany</div>
-          </div>
-        </div>
-
-        <div class="mt-4 flex flex-wrap gap-2 text-sm">
-          <span class="pill">Python</span>
-          <span class="pill">SQL</span>
-          <span class="pill">Power BI</span>
-          <span class="pill">REST APIs</span>
-          <span class="pill">Data Pipelines</span>
-          <span class="pill">Forecasting</span>
-          <span class="pill">Model Evaluation</span>
-          <span class="pill">SAP Fiori</span>
-          <span class="pill">Git</span>
-        </div>
-
-        <h2 class="mt-8 text-lg font-semibold" data-i18n="certs_title">Certifications</h2>
-        <ul class="mt-3 list-disc pl-5 text-zinc-200">
-          <li data-i18n="cert_1">Microsoft Certified Azure Fundamentals</li>
-          <li data-i18n="cert_2">Python for Machine Learning</li>
-          <li data-i18n="cert_3">Fundamentals of Deep Learning</li>
-          <li data-i18n="cert_4">SAS Certified Specialist Visual Business Analytics</li>
-        </ul>
-      </div>
-    </header>
-
-    <section class="mt-14">
-      <h2 class="text-2xl font-semibold" data-i18n="what_i_do_title">What I do</h2>
-
-      <div class="mt-4 grid gap-4 md:grid-cols-2 text-sm">
-        <div class="card">
-          <div class="font-medium" data-i18n="service_1_title">Analytics and Dashboards</div>
-          <p class="mt-2 text-zinc-300" data-i18n="service_1_desc">
-            Build KPI dashboards in Power BI, create reporting layers and turn complex analysis into clear stories for business and operations teams.
-          </p>
-        </div>
-
-        <div class="card">
-          <div class="font-medium" data-i18n="service_2_title">Data Automation and Integrations</div>
-          <p class="mt-2 text-zinc-300" data-i18n="service_2_desc">
-            Automate reporting and workflows using Python and SQL. Build REST API pipelines to move data across tools and reduce manual work.
-          </p>
-        </div>
-
-        <div class="card">
-          <div class="font-medium" data-i18n="service_3_title">Forecasting and Model Evaluation</div>
-          <p class="mt-2 text-zinc-300" data-i18n="service_3_desc">
-            Develop prediction models for trends and planning. Compare models using RMSE, MAE and R² and explain results in a business friendly way.
-          </p>
-        </div>
-
-        <div class="card">
-          <div class="font-medium" data-i18n="service_4_title">Stakeholder Communication</div>
-          <p class="mt-2 text-zinc-300" data-i18n="service_4_desc">
-            Translate requirements into data solutions, document assumptions and align outputs with teams across tech and business.
-          </p>
+      <div class="card">
+        <div class="text-lg font-semibold">CV Optimizer</div>
+        <p class="mt-2 text-zinc-300">Local GenAI tool to tailor CV content to a job description using an LLM pipeline.</p>
+        <div class="mt-4 flex gap-3 text-sm">
+          <a class="underline" href="https://github.com/Darpen24/CV-Optimizer" target="_blank" rel="noreferrer">GitHub</a>
+          <span class="text-zinc-500">Live demo link later</span>
         </div>
       </div>
-    </section>
 
-    <section id="contact" class="mt-14 card p-6">
-      <h2 class="text-2xl font-semibold" data-i18n="contact_title">Contact</h2>
-      <p class="mt-3 text-zinc-300">
-        <span data-i18n="contact_email_label">Email</span>: <a class="underline" href="mailto:darpen.bhandari@gmail.com">darpen.bhandari@gmail.com</a>
-      </p>
-      <p class="mt-1 text-zinc-300">
-        <span data-i18n="contact_phone_label">Phone</span>: <a class="underline" href="tel:+4915203864746">+49 1520 3864746</a>
-      </p>
-      <p class="mt-1 text-zinc-300"><span data-i18n="contact_location_label">Location</span>: <span data-i18n="contact_location_value">Mannheim, Germany</span></p>
-    </section>
+      <div class="card">
+        <div class="text-lg font-semibold">Electricity Insights</div>
+        <p class="mt-2 text-zinc-300">Forecasting and dashboarding project focused on energy usage trends and evaluation.</p>
+        <div class="mt-4 flex gap-3 text-sm">
+          <a class="underline" href="https://github.com/Darpen24/Electricity_insights" target="_blank" rel="noreferrer">GitHub</a>
+          <span class="text-zinc-500">Live demo link later</span>
+        </div>
+      </div>
 
-    <footer class="mt-10 text-xs text-zinc-500" data-i18n="footer_text">
-      Built by Darpen Bhandari
+      <div class="card">
+        <div class="text-lg font-semibold">Wine Quality Analysis</div>
+        <p class="mt-2 text-zinc-300">EDA and feature insight project showing cleaning, visualization and interpretation.</p>
+        <div class="mt-4 flex gap-3 text-sm">
+          <a class="underline" href="https://github.com/Darpen24/Wine_Quality_Analysis" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="text-lg font-semibold">Enterprise Analytics Work</div>
+        <p class="mt-2 text-zinc-300">API integrations, Power BI dashboards and automation across enterprise systems.</p>
+        <div class="mt-4 text-sm text-zinc-500">Details in CV and on request</div>
+      </div>
+
+    </div>
+
+    <footer class="mt-10 text-xs text-zinc-500">
+      <span data-i18n="footer_back">Back to</span> <a class="underline" href="./index.html" data-i18n="footer_home">Home</a>
     </footer>
-
   </div>
 
   <script>
@@ -155,92 +97,36 @@
         nav_projects: "Projekte",
         nav_contact: "Kontakt",
 
-        hero_title: "Data Analyst",
-        hero_stack: "Python, SQL, Power BI, REST APIs, Data Pipelines, Forecasting",
-        hero_about: "Ich bin Data Analyst mit 4+ Jahren Erfahrung und verwandle komplexe Daten in Dashboards, Automatisierung und predictive insights. Aktuell arbeite ich im Bereich Data and System Analytics am Universitätsklinikum Heidelberg und baue Integrationen und Reporting Workflows über Enterprise Systeme hinweg.",
+        projects_title: "Projekte",
+        projects_subtitle: "Ausgewählte Arbeiten mit klarem Problem, Lösung und Nachweis.",
 
-        btn_view_projects: "Projekte ansehen",
+        stroke_title: "Stroke Risk Analysis Dashboard (Power BI)",
+        stroke_desc: "Interaktives Power BI Dashboard zur Analyse von Stroke Risk Faktoren für 5.110 Patienten.",
+        stroke_github: "GitHub",
+        stroke_download: "PBIX herunterladen",
+        stroke_note: "Interaktives Embed braucht Power BI Service Zugriff",
+        stroke_kpis: "KPIs: Stroke Rate Prozent, High Risk Prozent, Avg BMI, Avg Glucose. Visuals: Breakdown nach Age Group, BMI Category, Smoking Status und BMI vs Glucose Scatter.",
 
-        current_label: "Aktuell",
-        current_company: "University Hospital Heidelberg",
-        current_role: "Data and System Analytics",
-
-        past_label: "Früher",
-        past_company: "Hexaware Technologies",
-        past_role: "Senior Software Engineer and Team Lead",
-
-        core_skills_title: "Core Skills",
-        core_skills_location: "Based in Mannheim, Germany",
-
-        certs_title: "Zertifikate",
-        cert_1: "Microsoft Certified Azure Fundamentals",
-        cert_2: "Python for Machine Learning",
-        cert_3: "Fundamentals of Deep Learning",
-        cert_4: "SAS Certified Specialist Visual Business Analytics",
-
-        what_i_do_title: "Was ich mache",
-        service_1_title: "Analytics and Dashboards",
-        service_1_desc: "Ich baue KPI Dashboards in Power BI, erstelle Reporting Layer und mache aus komplexer Analyse klare Stories für Business und Operations Teams.",
-        service_2_title: "Data Automation and Integrations",
-        service_2_desc: "Ich automatisiere Reporting und Workflows mit Python und SQL. Ich baue REST API Pipelines um Daten zwischen Tools zu bewegen und manuelle Arbeit zu reduzieren.",
-        service_3_title: "Forecasting and Model Evaluation",
-        service_3_desc: "Ich entwickle Modelle für Trends und Planung. Ich vergleiche Modelle mit RMSE, MAE und R² und erkläre die Ergebnisse verständlich.",
-        service_4_title: "Stakeholder Communication",
-        service_4_desc: "Ich übersetze Anforderungen in Data Lösungen, dokumentiere Annahmen und stimme Ergebnisse mit Tech und Business Teams ab.",
-
-        contact_title: "Kontakt",
-        contact_email_label: "E Mail",
-        contact_phone_label: "Telefon",
-        contact_location_label: "Ort",
-        contact_location_value: "Mannheim, Deutschland",
-
-        footer_text: "Erstellt von Darpen Bhandari"
+        footer_back: "Zurück zu",
+        footer_home: "Start"
       },
       en: {
         nav_home: "Home",
         nav_projects: "Projects",
         nav_contact: "Contact",
 
-        hero_title: "Data Analyst",
-        hero_stack: "Python, SQL, Power BI, REST APIs, Data Pipelines, Forecasting",
-        hero_about: "I am a Data Analyst with 4+ years of experience turning complex data into dashboards, automation and predictive insights. I currently work in Data and System Analytics at University Hospital Heidelberg, building integrations and reporting workflows across enterprise systems.",
+        projects_title: "Projects",
+        projects_subtitle: "Selected work with clear problem, solution and proof.",
 
-        btn_view_projects: "View Projects",
+        stroke_title: "Stroke Risk Analysis Dashboard (Power BI)",
+        stroke_desc: "Interactive Power BI dashboard analyzing stroke risk factors across 5,110 patients.",
+        stroke_github: "GitHub",
+        stroke_download: "Download PBIX",
+        stroke_note: "Interactive embed needs Power BI Service access",
+        stroke_kpis: "KPIs: Stroke Rate %, High Risk %, Avg BMI, Avg Glucose. Visuals: risk breakdown by age group, BMI category, smoking status and BMI vs glucose scatter.",
 
-        current_label: "Current",
-        current_company: "University Hospital Heidelberg",
-        current_role: "Data and System Analytics",
-
-        past_label: "Past",
-        past_company: "Hexaware Technologies",
-        past_role: "Senior Software Engineer and Team Lead",
-
-        core_skills_title: "Core Skills",
-        core_skills_location: "Based in Mannheim, Germany",
-
-        certs_title: "Certifications",
-        cert_1: "Microsoft Certified Azure Fundamentals",
-        cert_2: "Python for Machine Learning",
-        cert_3: "Fundamentals of Deep Learning",
-        cert_4: "SAS Certified Specialist Visual Business Analytics",
-
-        what_i_do_title: "What I do",
-        service_1_title: "Analytics and Dashboards",
-        service_1_desc: "Build KPI dashboards in Power BI, create reporting layers and turn complex analysis into clear stories for business and operations teams.",
-        service_2_title: "Data Automation and Integrations",
-        service_2_desc: "Automate reporting and workflows using Python and SQL. Build REST API pipelines to move data across tools and reduce manual work.",
-        service_3_title: "Forecasting and Model Evaluation",
-        service_3_desc: "Develop prediction models for trends and planning. Compare models using RMSE, MAE and R² and explain results in a business friendly way.",
-        service_4_title: "Stakeholder Communication",
-        service_4_desc: "Translate requirements into data solutions, document assumptions and align outputs with teams across tech and business.",
-
-        contact_title: "Contact",
-        contact_email_label: "Email",
-        contact_phone_label: "Phone",
-        contact_location_label: "Location",
-        contact_location_value: "Mannheim, Germany",
-
-        footer_text: "Built by Darpen Bhandari"
+        footer_back: "Back to",
+        footer_home: "Home"
       }
     };
 
