@@ -211,13 +211,9 @@ a {
   background: rgba(255, 255, 255, 0.02);
 }
 
-.resume-toggle {
-  cursor: pointer;
-  min-width: 140px;
-}
-
-.hero-buttons .btn-secondary {
-  min-width: 140px;
+/* Make all hero buttons look equal */
+.hero-buttons .btn {
+  min-width: 150px;
 }
 
 .resume-dropdown {
@@ -227,6 +223,10 @@ a {
 
 .resume-toggle {
   cursor: pointer;
+  width: 100%;
+  border: 1px solid rgba(130, 170, 255, 0.24);
+  color: #dce8ff;
+  background: rgba(255, 255, 255, 0.02);
 }
 
 .resume-menu {
@@ -615,5 +615,14 @@ h3 {
   .section-head {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .hero-buttons .btn,
+  .resume-dropdown {
+    width: 100%;
+  }
+
+  .resume-menu {
+    min-width: 100%;
   }
 }
