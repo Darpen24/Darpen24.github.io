@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Darpen Bhandari | Data Engineer Portfolio</title>
+  <link rel="stylesheet" href="./assets/style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-wrap">
+      <a href="index.html" class="logo">Darpen Bhandari</a>
+
+      <nav class="nav-right">
+        <div class="lang-toggle">
+          <button id="lang-en" class="lang-btn active" type="button">EN</button>
+          <span>|</span>
+          <button id="lang-de" class="lang-btn" type="button">DE</button>
+        </div>
+
+        <ul class="nav-links">
+          <li><a href="#about" data-i18n="nav_about">About</a></li>
+          <li><a href="#experience" data-i18n="nav_experience">Experience</a></li>
+          <li><a href="#projects" data-i18n="nav_projects">Projects</a></li>
+          <li><a href="#skills" data-i18n="nav_skills">Skills</a></li>
+          <li><a href="#strengths" data-i18n="nav_value">Value</a></li>
+          <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
+          <li><a href="projects.html" data-i18n="nav_all_projects">All Projects</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="terminal-line" data-i18n="hero_tagline">Data Engineer • Analytics • BI</p>
+
+          <h1>Darpen<br><span>Bhandari</span></h1>
+
+          <p class="role-line"><span id="typing-text"></span></p>
+
+          <p class="hero-desc" data-i18n="hero_desc">
+            Data Engineer with 4.9 years of experience building ETL and ELT pipelines, scalable data workflows and decision-ready analytics solutions using Python, SQL, Azure, BigQuery, Spark and Power BI.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary" data-i18n="hero_btn_projects">View Projects</a>
+            <a href="#contact" class="btn btn-secondary" data-i18n="hero_btn_contact">Contact Me</a>
+            <a href="./assets/Darpen-CV.pdf" class="btn btn-secondary" target="_blank" data-i18n="hero_btn_resume">Resume</a>
+          </div>
+
+          <div class="stats">
+            <div class="stat-card">
+              <h3>4.9+</h3>
+              <p data-i18n="stat_experience">Years Experience</p>
+            </div>
+            <div class="stat-card">
+              <h3>22</h3>
+              <p data-i18n="stat_apps">Enterprise Data Workflows Supported</p>
+            </div>
+            <div class="stat-card">
+              <h3>15%</h3>
+              <p data-i18n="stat_reporting">Less Manual Reporting</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="profile-card">
+            <img src="./assets/Darpen-Photo.jpeg" alt="Darpen Bhandari" class="profile-img" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <p class="section-tag">// ABOUT</p>
+        <h2 data-i18n="about_title">Who I Am</h2>
+        <p class="section-text" data-i18n="about_text">
+          I am a Data Engineer with experience across healthcare, financial services and applied data science projects. I build ETL and ELT pipelines, automate reporting workflows and develop reliable analytics solutions that help stakeholders make better decisions. My work combines Python, SQL, Azure, BigQuery, Spark, dbt and Power BI to turn complex raw data into structured, scalable and business-ready outputs.
+        </p>
+      </div>
+    </section>
+
+    <section id="experience" class="section alt-bg">
+      <div class="container">
+        <p class="section-tag">// EXPERIENCE</p>
+        <h2 data-i18n="experience_title">Professional Experience</h2>
+
+        <div class="timeline-card">
+          <h3>Student Assistant - Data and System Analytics</h3>
+          <p class="subtext">Universitätsklinikum Heidelberg | Heidelberg, Germany</p>
+          <ul>
+            <li data-i18n="exp1_1">Built ETL and ELT workflows and dashboarding solutions for operational application data using Python, SQL, Azure Data Factory, Azure Storage and Power BI.</li>
+            <li data-i18n="exp1_2">Improved reporting visibility across IT services and supported a 15 percent reduction in manual reporting effort through structured workflows and dashboards.</li>
+            <li data-i18n="exp1_3">Designed incident analytics dashboards to track open versus resolved cases, recurring service issues and application demand trends.</li>
+            <li data-i18n="exp1_4">Supported better SLA monitoring and follow up on support requests by turning operational data into decision-ready insights.</li>
+          </ul>
+        </div>
+
+        <div class="timeline-card">
+          <h3>Senior Software Engineer</h3>
+          <p class="subtext">Hexaware Technologies Pvt Ltd. | Navi Mumbai, India</p>
+          <ul>
+            <li data-i18n="exp2_1">Led data delivery for 22 financial applications by building automated ETL pipelines using Azure Data Factory, Azure SQL, Azure Storage and Data Lake.</li>
+            <li data-i18n="exp2_2">Implemented data validation checks and CI/CD-supported workflows to improve data accessibility and reduce manual effort by 10 percent.</li>
+            <li data-i18n="exp2_3">Designed scalable transformation logic and reporting layers for financial application data across Azure-based storage systems.</li>
+            <li data-i18n="exp2_4">Improved dashboard delivery and business visibility, supporting a 5 percent uplift in revenue-driven decision outcomes across US operations.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="section-tag">// PROJECTS</p>
+            <h2 data-i18n="featured_title">Featured Project</h2>
+          </div>
+          <a href="projects.html" class="text-link" data-i18n="view_more_projects">View More Projects</a>
+        </div>
+
+        <div class="featured-project-card">
+          <div class="featured-project-image">
+            <img src="./assets/Main-Dashboard.png" alt="Stroke Risk Analytics Dashboard" class="featured-img" />
+          </div>
+
+          <div class="featured-project-content">
+            <p class="project-label">Power BI • DAX • Power Query</p>
+            <h3 data-i18n="stroke_title">Stroke Risk Analytics Dashboard</h3>
+
+            <p data-i18n="stroke_featured_desc">
+              Interactive Power BI dashboard built on a healthcare dataset of 5,110 patients to analyze stroke risk indicators through KPI tracking, demographic filtering and risk-focused visual analysis.
+            </p>
+
+            <div class="project-detail-list">
+              <div class="project-detail-card">
+                <h3 data-i18n="what_built_title">What I built</h3>
+                <p data-i18n="stroke_built">
+                  I designed a dashboard with KPI cards, age analysis, BMI category views, smoking-status breakdowns and health-risk comparisons to make patient-level insights easier to understand.
+                </p>
+              </div>
+
+              <div class="project-detail-card">
+                <h3 data-i18n="why_matters_title">Why it matters</h3>
+                <p data-i18n="stroke_impact">
+                  The dashboard helps highlight how stroke prevalence relates to age, hypertension, heart disease, BMI and glucose patterns, turning healthcare data into a more actionable reporting view.
+                </p>
+              </div>
+            </div>
+
+            <div class="project-actions">
+              <a href="projects.html" class="project-btn" data-i18n="view_more_projects">View More Projects</a>
+              <a href="https://github.com/Darpen24/Stroke-Risk" target="_blank" class="project-btn">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section alt-bg">
+      <div class="container">
+        <p class="section-tag">// SKILLS</p>
+        <h2 data-i18n="skills_title">Skill Levels</h2>
+
+        <div class="skill-level-grid">
+          <div class="skill-level-card">
+            <p class="skill-card-tag">// DATA ENGINEERING</p>
+
+            <div class="skill-item">
+              <div class="skill-head">
+                <span>Python</span>
+                <span data-i18n="level_advanced">Advanced</span>
+              </div>
+              <div class="skill-track"><div class="skill-fill" style="width: 90%"></div></div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-head">
+                <span>SQL</span>
+                <span data-i18n="level_advanced">Advanced</span>
+              </div>
+              <div class="skill-track"><div class="skill-fill" style="width: 92%"></div></div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-head">
+                <span>ETL / ELT Pipelines</span>
+                <span data-i18n="level_advanced">Advanced</span>
+              </div>
+              <div class="skill-track"><div class="skill-fill" style="width: 90%"></div></div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-head">
+                <span>dbt</span>
+                <span data-i18n="level_strong">Strong</span>
+              </div>
+              <div class="skill-track"><div class="skill-fill" style="width: 82%"></div></div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-head">
+                <span>Data Modeling</span>
+                <span data-i18n="level_strong">Strong</span>
+              </div>
+              <div class="skill-track"><div class="skill-fill" style="width: 80%"></div></div>
+            </div>
+          </div>
+
+          <div class="skill-level-card">
+            <p class="skill-card-tag">// CLOUD & DATA PLATFORMS</p>
+
+            <div class="skill-item">
+              <div class="skill-head">
+                <span>Azure Data Factory</span>
+                <span data-i18n="level_strong">Strong</span>
+              </div>
+              <div class="skill-track"><div class="skill-fill fill-orange" style="width: 86%"></div></div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-head">
+                <span>Azure SQL</span>
+                <span data-i18n="level_strong">Strong</span>
+              </div>
+              <div class="skill-track"><div class="skill-fill fill-orange" style="width: 82%"></div></div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-head">
+                <span>Azure Storage / Data Lake</span>
+                <span data-i18n="level_strong">Strong</span>
+              </div>
+              <div class="skill-track"><div class="skill-fill fill-orange" style="width: 84%"></div></div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-head">
+                <span>BigQuery</span>
+                <span data-i18n="level_working">Working</span>
+              </div>
+              <div class="skill-track"><div class="skill-fill fill-orange" style="width: 74%"></div></div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-head">
+                <span>Spark</span>
+                <span data-i18n="level_working">Working</span>
+              </div>
+              <div class="skill-track"><div class="skill-fill fill-orange" style="width: 72%"></div></div>
+            </div>
+          </div>
+
+          <div class="skill-level-card">
+            <p class="skill-card-tag">// ANALYTICS & BI</p>
+
+            <div class="skill-item">
+              <div class="skill-head">
+                <span>Power BI</span>
+                <span data-i18n="level_strong">Strong</span>
+              </div>
+              <div class="skill-track"><div class="skill-fill fill-orange" style="width: 88%"></div></div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-head">
+                <span>DAX</span>
+                <span data-i18n="level_strong">Strong</span>
+              </div>
+              <div class="skill-track"><div class="skill-fill fill-orange" style="width: 82%"></div></div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-head">
+                <span>Power Query</span>
+                <span data-i18n="level_strong">Strong</span>
+              </div>
+              <div class="skill-track"><div class="skill-fill fill-orange" style="width: 84%"></div></div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-head">
+                <span>REST API Integration</span>
+                <span data-i18n="level_strong">Strong</span>
+              </div>
+              <div class="skill-track"><div class="skill-fill fill-orange" style="width: 80%"></div></div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-head">
+                <span>Git / CI-CD</span>
+                <span data-i18n="level_strong">Strong</span>
+              </div>
+              <div class="skill-track"><div class="skill-fill fill-orange" style="width: 80%"></div></div>
+            </div>
+          </div>
+
+          <div class="skill-level-card">
+            <p class="skill-card-tag">// LANGUAGES</p>
+
+            <div class="skill-item">
+              <div class="skill-head">
+                <span>English</span>
+                <span data-i18n="level_fluent">Fluent</span>
+              </div>
+              <div class="skill-track"><div class="skill-fill fill-green" style="width: 95%"></div></div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-head">
+                <span>German</span>
+                <span data-i18n="level_intermediate">Intermediate</span>
+              </div>
+              <div class="skill-track"><div class="skill-fill fill-green" style="width: 65%"></div></div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-head">
+                <span>Hindi</span>
+                <span data-i18n="level_native">Native</span>
+              </div>
+              <div class="skill-track"><div class="skill-fill fill-green" style="width: 98%"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="strengths" class="section">
+      <div class="container">
+        <p class="section-tag">// VALUE</p>
+        <h2 data-i18n="value_title">What I Bring</h2>
+
+        <div class="strength-grid">
+          <div class="strength-card">
+            <h3 data-i18n="strength1_title">Data Engineering Strength</h3>
+            <p data-i18n="strength1_text">
+              I build structured and scalable ETL and ELT workflows that improve data reliability, reduce manual effort and support decision-ready reporting.
+            </p>
+          </div>
+
+          <div class="strength-card">
+            <h3 data-i18n="strength2_title">Analytics and BI Strength</h3>
+            <p data-i18n="strength2_text">
+              I translate business and operational needs into clear dashboards, KPIs and analytical views that help stakeholders act faster and with more confidence.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container contact-box">
+        <p class="section-tag">// CONTACT</p>
+        <h2 data-i18n="contact_title">Get in Touch</h2>
+        <p class="section-text" data-i18n="contact_text">
+          Open to opportunities in Data Engineering, Analytics Engineering, BI and Reporting across Germany and Europe.
+        </p>
+        <div class="contact-links">
+          <a href="mailto:darpen.bhandari@gmail.com" class="btn btn-primary">Email</a>
+          <a href="https://github.com/Darpen24" target="_blank" class="btn btn-secondary">GitHub</a>
+          <a href="https://www.linkedin.com/in/darpen-bhandari/" target="_blank" class="btn btn-secondary">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 Darpen Bhandari</p>
+    </div>
+  </footer>
+
+  <script src="./assets/main.js"></script>
+</body>
+</html>
