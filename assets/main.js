@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       hero_tagline: "Data Engineer • Analytics • BI",
       hero_desc:
-        "Data Engineer with 4.9 years of experience building ETL and ELT pipelines, scalable data workflows and decision-ready analytics solutions using Python, SQL, Azure, BigQuery, Spark and Power BI.",
+        "Data Engineer with 5 years of experience building ETL and ELT pipelines, scalable data workflows and decision-ready analytics solutions using Python, SQL, Azure, BigQuery, Spark and Power BI.",
       hero_btn_projects: "View Projects",
       hero_btn_contact: "Contact Me",
       hero_btn_resume: "Resume",
