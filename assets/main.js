@@ -129,7 +129,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       hero_tagline: "Data Engineer • Analytics • BI",
       hero_desc:
-        "Data Engineer mit 4,9 Jahren Erfahrung im Aufbau von ETL- und ELT-Pipelines, skalierbaren Datenworkflows und entscheidungsreifen Analyselösungen mit Python, SQL, Azure, BigQuery, Spark und Power BI.",
+        "Data Engineer mit 5 Jahren Erfahrung im Aufbau von ETL- und ELT-Pipelines, skalierbaren Datenworkflows und entscheidungsreifen Analyselösungen mit Python, SQL, Azure, BigQuery, Spark und Power BI.",
       hero_btn_projects: "Projekte ansehen",
       hero_btn_contact: "Kontakt",
       hero_btn_resume: "Lebenslauf",
